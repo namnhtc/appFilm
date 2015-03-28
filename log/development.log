@@ -1,0 +1,4272 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-27 23:17:18 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (2.2ms)
+Completed 200 OK in 89ms (Views: 72.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-03-27 23:19:37 +0700
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/namct/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/namct/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/namct/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (28.7ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (73.0ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.1ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (37.5ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:19:45 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1411ms (Views: 1409.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-27 23:19:47 +0700
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 127.0.0.1 at 2015-03-27 23:19:47 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:19:47 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:19:47 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:19:47 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:19:47 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:19:47 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:20:05 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 65ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-27 23:20:06 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:20:06 +0700
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 127.0.0.1 at 2015-03-27 23:20:06 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:20:06 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:20:06 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:20:06 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:20:06 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:22:39 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (Missing partial home/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/namct/appFilm/app/views"
+):
+    1: <header>
+    2:   <%= render 'home/header' %>
+    3: </header>
+    4: <section>
+    5:   <%= render 'home/content' %>
+  app/views/home/index.html.erb:2:in `_app_views_home_index_html_erb___2958098066689328896_27040760'
+
+
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (19.2ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (36.8ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (30.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:24:43 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (Missing partial home/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/namct/appFilm/app/views"
+):
+    1: <header>
+    2:   <%= render 'home/header' %>
+    3: </header>
+    4: <section>
+    5:   <%= render 'home/content' %>
+  app/views/home/index.html.erb:2:in `_app_views_home_index_html_erb___2958098066689328896_27040760'
+
+
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.6ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.1ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (30.9ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:24:45 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (Missing partial home/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/namct/appFilm/app/views"
+):
+    1: <header>
+    2:   <%= render 'home/header' %>
+    3: </header>
+    4: <section>
+    5:   <%= render 'home/content' %>
+  app/views/home/index.html.erb:2:in `_app_views_home_index_html_erb___2958098066689328896_27040760'
+
+
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.5ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.6ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (31.1ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:24:46 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (Missing partial home/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/namct/appFilm/app/views"
+):
+    1: <header>
+    2:   <%= render 'home/header' %>
+    3: </header>
+    4: <section>
+    5:   <%= render 'home/content' %>
+  app/views/home/index.html.erb:2:in `_app_views_home_index_html_erb___2958098066689328896_27040760'
+
+
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.5ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.6ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (30.6ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:24:47 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (Missing partial home/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/namct/appFilm/app/views"
+):
+    1: <header>
+    2:   <%= render 'home/header' %>
+    3: </header>
+    4: <section>
+    5:   <%= render 'home/content' %>
+  app/views/home/index.html.erb:2:in `_app_views_home_index_html_erb___2958098066689328896_27040760'
+
+
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.6ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.2ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (31.1ms)
+
+
+Started GET "/home/content" for 127.0.0.1 at 2015-03-27 23:25:00 +0700
+
+ActionController::RoutingError (No route matches [GET] "/home/content"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/namct/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/namct/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/namct/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.1ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.9ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (32.2ms)
+
+
+Started GET "/home/content" for 127.0.0.1 at 2015-03-27 23:27:48 +0700
+
+ActionController::RoutingError (No route matches [GET] "/home/content"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/namct/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/namct/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/namct/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.9ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (11.9ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.2ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (45.4ms)
+
+
+Started GET "/home/" for 127.0.0.1 at 2015-03-27 23:27:51 +0700
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/namct/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/namct/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/namct/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.9ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (16.2ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (32.6ms)
+
+
+Started GET "/home/" for 127.0.0.1 at 2015-03-27 23:27:54 +0700
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/namct/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/namct/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/namct/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.6ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.8ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (31.7ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:27:58 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (Missing partial home/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/namct/appFilm/app/views"
+):
+    1: <header>
+    2:   <%= render 'home/header' %>
+    3: </header>
+  app/views/home/index.html.erb:2:in `_app_views_home_index_html_erb___2958098066689328896_40598540'
+
+
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.6ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (33.6ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:28:57 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 67ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-27 23:28:57 +0700
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 127.0.0.1 at 2015-03-27 23:28:57 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:28:57 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:28:57 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:28:57 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:28:57 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:28:57 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:29:25 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.7ms)
+  Rendered home/_content.html.erb (0.8ms)
+  Rendered home/_footer.html.erb (0.7ms)
+  Rendered home/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 127.0.0.1 at 2015-03-27 23:29:25 +0700
+
+
+Started GET "/assets/home-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-27 23:29:25 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:29:25 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:29:25 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:29:25 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:29:25 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:29:25 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:29:56 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.4ms)
+  Rendered home/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 78ms (Views: 77.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-27 23:29:56 +0700
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 127.0.0.1 at 2015-03-27 23:29:56 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:29:56 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:29:56 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:29:56 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:29:56 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:29:56 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:38:50 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.6ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 112ms (Views: 111.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-03-27 23:38:50 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:38:50 +0700
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 127.0.0.1 at 2015-03-27 23:38:50 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:38:50 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:38:50 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:38:50 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:38:50 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:39:43 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 113ms (Views: 111.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-a8ef92628aa99d727a9f6916b3ef87e3.css?body=1" for 127.0.0.1 at 2015-03-27 23:39:44 +0700
+
+
+Started GET "/assets/application-5a44156fc2ddd1117d44ec6ea0a0b0c0.css?body=1" for 127.0.0.1 at 2015-03-27 23:39:44 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:39:44 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:39:44 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:39:44 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:39:44 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:39:44 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:40:14 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 137ms (Views: 136.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-a8ef92628aa99d727a9f6916b3ef87e3.css?body=1" for 127.0.0.1 at 2015-03-27 23:40:14 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:40:14 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:40:14 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:40:14 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:40:14 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:40:14 +0700
+
+
+Started GET "/assets/application-5a44156fc2ddd1117d44ec6ea0a0b0c0.css?body=1" for 127.0.0.1 at 2015-03-27 23:40:14 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:40:57 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 137ms (Views: 135.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-d57d8f0ef55522804ea08d0bd91bc8c9.css?body=1" for 127.0.0.1 at 2015-03-27 23:40:57 +0700
+
+
+Started GET "/assets/application-20980be7755db906e12f690841eb8b65.css?body=1" for 127.0.0.1 at 2015-03-27 23:40:57 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:40:58 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:40:58 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:40:58 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:40:58 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:40:58 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:41:27 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 115ms (Views: 113.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-1bcd7d86592b6477c0261c752ac3b27b.css?body=1" for 127.0.0.1 at 2015-03-27 23:41:27 +0700
+
+
+Started GET "/assets/home-f47d5be58e5b77300739e5f808f73758.css?body=1" for 127.0.0.1 at 2015-03-27 23:41:27 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:41:27 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:41:27 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:41:27 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:41:27 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:41:27 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:41:33 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 164ms (Views: 163.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-78ff8bd5c91689f1d8ccfca521938054.css?body=1" for 127.0.0.1 at 2015-03-27 23:41:33 +0700
+
+
+Started GET "/assets/application-86573f3d3ee346b7cc06b1f888a53c07.css?body=1" for 127.0.0.1 at 2015-03-27 23:41:33 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:41:33 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:41:33 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:41:33 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:41:33 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:41:33 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:41:42 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.8ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 95ms (Views: 94.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-78ff8bd5c91689f1d8ccfca521938054.css?body=1" for 127.0.0.1 at 2015-03-27 23:41:42 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:41:42 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:41:42 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:41:42 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:41:42 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:41:42 +0700
+
+
+Started GET "/assets/application-86573f3d3ee346b7cc06b1f888a53c07.css?body=1" for 127.0.0.1 at 2015-03-27 23:41:42 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:42:27 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.6ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 87ms (Views: 85.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-78ff8bd5c91689f1d8ccfca521938054.css?body=1" for 127.0.0.1 at 2015-03-27 23:42:27 +0700
+
+
+Started GET "/assets/application-86573f3d3ee346b7cc06b1f888a53c07.css?body=1" for 127.0.0.1 at 2015-03-27 23:42:27 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:42:27 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:42:27 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:42:27 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:42:27 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:42:27 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:42:33 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 100ms (Views: 98.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-78ff8bd5c91689f1d8ccfca521938054.css?body=1" for 127.0.0.1 at 2015-03-27 23:42:33 +0700
+
+
+Started GET "/assets/application-86573f3d3ee346b7cc06b1f888a53c07.css?body=1" for 127.0.0.1 at 2015-03-27 23:42:33 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:42:33 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:42:33 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:42:33 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:42:33 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:42:33 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:42:46 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 142ms (Views: 140.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-d57d8f0ef55522804ea08d0bd91bc8c9.css?body=1" for 127.0.0.1 at 2015-03-27 23:42:47 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:42:47 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:42:47 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:42:47 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:42:47 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:42:47 +0700
+
+
+Started GET "/assets/application-20980be7755db906e12f690841eb8b65.css?body=1" for 127.0.0.1 at 2015-03-27 23:42:47 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:43:43 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (1.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 122ms (Views: 121.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-78ff8bd5c91689f1d8ccfca521938054.css?body=1" for 127.0.0.1 at 2015-03-27 23:43:43 +0700
+
+
+Started GET "/assets/application-86573f3d3ee346b7cc06b1f888a53c07.css?body=1" for 127.0.0.1 at 2015-03-27 23:43:43 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:43:43 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:43:43 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:43:43 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:43:43 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:43:43 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:43:50 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.2ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 103ms (Views: 102.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-20980be7755db906e12f690841eb8b65.css?body=1" for 127.0.0.1 at 2015-03-27 23:43:51 +0700
+
+
+Started GET "/assets/home-d57d8f0ef55522804ea08d0bd91bc8c9.css?body=1" for 127.0.0.1 at 2015-03-27 23:43:51 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:43:51 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:43:51 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:43:51 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:43:51 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:43:51 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:44:38 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.4ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 110ms (Views: 108.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-78ff8bd5c91689f1d8ccfca521938054.css?body=1" for 127.0.0.1 at 2015-03-27 23:44:39 +0700
+
+
+Started GET "/assets/application-86573f3d3ee346b7cc06b1f888a53c07.css?body=1" for 127.0.0.1 at 2015-03-27 23:44:39 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:44:39 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:44:39 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:44:39 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:44:39 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:44:39 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:45:03 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 96ms (Views: 95.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-9b584a4fc61d53594c328e69ada6fcc7.css?body=1" for 127.0.0.1 at 2015-03-27 23:45:03 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:45:03 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:45:03 +0700
+
+
+Started GET "/assets/application-08efa86dd313fea08d091043ff0b942d.css?body=1" for 127.0.0.1 at 2015-03-27 23:45:03 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:45:03 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:45:03 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:45:03 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:47:29 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 126ms (Views: 124.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-125167747c5149b0db5d33215b503fd5.css?body=1" for 127.0.0.1 at 2015-03-27 23:47:29 +0700
+
+
+Started GET "/assets/application-aac8c892593b308bf3f4369122b8bc9b.css?body=1" for 127.0.0.1 at 2015-03-27 23:47:29 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:47:29 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:47:29 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:47:29 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:47:29 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:47:29 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:48:39 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 139ms (Views: 138.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-f2f6e824e006d86cbfae64d7705ac250.css?body=1" for 127.0.0.1 at 2015-03-27 23:48:39 +0700
+
+
+Started GET "/assets/application-350d7e4b6cec14d1472099e6566e0212.css?body=1" for 127.0.0.1 at 2015-03-27 23:48:39 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:48:39 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:48:39 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:48:39 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:48:39 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:48:39 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:48:52 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 91ms (Views: 89.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-b09e035cd35d89189263a6487f0aebee.css?body=1" for 127.0.0.1 at 2015-03-27 23:48:52 +0700
+
+
+Started GET "/assets/application-5eb306e0aef41766272e19ce29846774.css?body=1" for 127.0.0.1 at 2015-03-27 23:48:52 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:48:52 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:48:52 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:48:52 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:48:52 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:48:52 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:49:44 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.2ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 138ms (Views: 137.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-321cbd9d926b982abc9dc1e1a54d5a2b.css?body=1" for 127.0.0.1 at 2015-03-27 23:49:44 +0700
+
+
+Started GET "/assets/application-4f164243fa41622bf9a6da291f2e2ec5.css?body=1" for 127.0.0.1 at 2015-03-27 23:49:44 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:49:44 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:49:44 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:49:44 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:49:44 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:49:44 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:50:05 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 179ms (Views: 177.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-822f626de37f41c62ab570bf0a769990.css?body=1" for 127.0.0.1 at 2015-03-27 23:50:06 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:50:06 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:50:06 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:50:06 +0700
+
+
+Started GET "/assets/application-905c8aa04f2a2732b0d6e4f8a68091e1.css?body=1" for 127.0.0.1 at 2015-03-27 23:50:06 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:50:06 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:50:06 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:50:28 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.2ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 167ms (Views: 165.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-28a0bc5eb03f2cf932f52ab083260e04.css?body=1" for 127.0.0.1 at 2015-03-27 23:50:28 +0700
+
+
+Started GET "/assets/home-094ebb5fe7098a4aed0e52e61b361c3d.css?body=1" for 127.0.0.1 at 2015-03-27 23:50:28 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:50:28 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:50:28 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:50:28 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:50:28 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:50:28 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:51:14 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 127ms (Views: 125.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-447a8754536b2af756fef179cbdcbb8c.css?body=1" for 127.0.0.1 at 2015-03-27 23:51:14 +0700
+
+
+Started GET "/assets/application-be6c6b5e3d534ebd9d7b9d00274b3b2b.css?body=1" for 127.0.0.1 at 2015-03-27 23:51:14 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:51:14 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:51:14 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:51:14 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:51:14 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:51:14 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:51:37 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.4ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 74ms (Views: 73.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-447a8754536b2af756fef179cbdcbb8c.css?body=1" for 127.0.0.1 at 2015-03-27 23:51:37 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:51:37 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:51:37 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:51:37 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:51:37 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:51:37 +0700
+
+
+Started GET "/assets/application-be6c6b5e3d534ebd9d7b9d00274b3b2b.css?body=1" for 127.0.0.1 at 2015-03-27 23:51:37 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:53:48 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 100ms (Views: 98.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-a930be3d15e5c8030a75ef7e3cc0368d.css?body=1" for 127.0.0.1 at 2015-03-27 23:53:48 +0700
+
+
+Started GET "/assets/application-93ae7aab2f333ad17a2bc347b9db183b.css?body=1" for 127.0.0.1 at 2015-03-27 23:53:48 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:53:48 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:53:48 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:53:48 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:53:48 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:53:48 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:54:09 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 100ms (Views: 99.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-65ad62fe7bdd6218f159863f5a998ea0.css?body=1" for 127.0.0.1 at 2015-03-27 23:54:10 +0700
+
+
+Started GET "/assets/application-78800e436e83c5d9157297431770ca1e.css?body=1" for 127.0.0.1 at 2015-03-27 23:54:10 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:54:10 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:54:10 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:54:10 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:54:10 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:54:10 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:54:42 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 96ms (Views: 94.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-7320c8260ff70fe900401187eba1509e.css?body=1" for 127.0.0.1 at 2015-03-27 23:54:42 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:54:42 +0700
+
+
+Started GET "/assets/application-19010a3cf2db9368e7f124b49910ff00.css?body=1" for 127.0.0.1 at 2015-03-27 23:54:42 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:54:42 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:54:42 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:54:42 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:54:42 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:55:00 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 88ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-fc79553d48278a52f707dce5732d8a82.css?body=1" for 127.0.0.1 at 2015-03-27 23:55:00 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:55:00 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:55:00 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:55:00 +0700
+
+
+Started GET "/assets/application-21c21d718cdef847d746fbe16c1abd94.css?body=1" for 127.0.0.1 at 2015-03-27 23:55:00 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:55:00 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:55:00 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:55:08 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 87ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-3aed589da8ba6343fce15a3b192807f9.css?body=1" for 127.0.0.1 at 2015-03-27 23:55:08 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:55:08 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:55:08 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:55:08 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:55:08 +0700
+
+
+Started GET "/assets/application-0c6d849f727d00f83087ce5d0e5fb096.css?body=1" for 127.0.0.1 at 2015-03-27 23:55:08 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:55:08 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:55:18 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 122ms (Views: 121.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-a089dfc65110c61a1d33b5461e33e3e1.css?body=1" for 127.0.0.1 at 2015-03-27 23:55:18 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:55:18 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:55:18 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:55:18 +0700
+
+
+Started GET "/assets/application-5a1e822ab467ec88625e32e2729af413.css?body=1" for 127.0.0.1 at 2015-03-27 23:55:18 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:55:18 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:55:18 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:57:06 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 132ms (Views: 130.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-4c00491ca16278d38d5d5985ea81e55a.css?body=1" for 127.0.0.1 at 2015-03-27 23:57:07 +0700
+
+
+Started GET "/assets/application-b837dc3f36e3189e74574046d0fc4296.css?body=1" for 127.0.0.1 at 2015-03-27 23:57:07 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:57:07 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:57:07 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:57:07 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:57:07 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:57:07 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:58:24 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 101ms (Views: 100.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-7e4dc3314808cac8d30b43e26d13b687.css?body=1" for 127.0.0.1 at 2015-03-27 23:58:24 +0700
+
+
+Started GET "/assets/application-a670da4c9e607377c388f0f227cf8b3e.css?body=1" for 127.0.0.1 at 2015-03-27 23:58:24 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:58:24 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:58:24 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:58:24 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:58:24 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:58:24 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-27 23:59:49 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 58ms (Views: 57.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-7e4dc3314808cac8d30b43e26d13b687.css?body=1" for 127.0.0.1 at 2015-03-27 23:59:49 +0700
+
+
+Started GET "/assets/application-a670da4c9e607377c388f0f227cf8b3e.css?body=1" for 127.0.0.1 at 2015-03-27 23:59:49 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-27 23:59:49 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-27 23:59:49 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-27 23:59:49 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-27 23:59:49 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-27 23:59:49 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:01:15 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 112ms (Views: 111.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-034474eb5b12e192e7731436119dfd56.css?body=1" for 127.0.0.1 at 2015-03-28 00:01:15 +0700
+
+
+Started GET "/assets/application-ea18f4b97f03e039e409052ac92bf6e2.css?body=1" for 127.0.0.1 at 2015-03-28 00:01:15 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:01:15 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:01:15 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:01:15 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:01:15 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:01:15 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:01:25 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 137ms (Views: 136.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-e6c385e874c5939dd1ebaa3ced0a8935.css?body=1" for 127.0.0.1 at 2015-03-28 00:01:26 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:01:26 +0700
+
+
+Started GET "/assets/home-071d9bf0e591a49aa4bd8c30e5fc27d2.css?body=1" for 127.0.0.1 at 2015-03-28 00:01:26 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:01:26 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:01:26 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:01:26 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:01:26 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:01:56 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (Undefined mixin 'grid-row'.
+  (in /home/namct/appFilm/app/assets/stylesheets/home.scss:8)):
+    2: <html>
+    3: <head>
+    4:   <title>AppFilm</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/home.scss:8:in `grid-row'
+  app/assets/stylesheets/home.scss:8
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__308650477613536053_27003020'
+
+
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.7ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.2ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.8ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (16.3ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (32.2ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:02:02 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 66ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-071d9bf0e591a49aa4bd8c30e5fc27d2.css?body=1" for 127.0.0.1 at 2015-03-28 00:02:03 +0700
+
+
+Started GET "/assets/application-e6c385e874c5939dd1ebaa3ced0a8935.css?body=1" for 127.0.0.1 at 2015-03-28 00:02:03 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:02:03 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:02:03 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:02:03 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:02:03 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:02:03 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:03:27 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.2ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 94ms (Views: 92.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-f307051044622bf97dc6689b85f8681e.css?body=1" for 127.0.0.1 at 2015-03-28 00:03:27 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:03:27 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:03:27 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:03:27 +0700
+
+
+Started GET "/assets/application-4218668a9077e2f3cd2b367e546785e1.css?body=1" for 127.0.0.1 at 2015-03-28 00:03:27 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:03:27 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:03:27 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:03:36 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 102ms (Views: 101.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-4df62f48aeb9b6361f0e398022a63418.css?body=1" for 127.0.0.1 at 2015-03-28 00:03:37 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:03:37 +0700
+
+
+Started GET "/assets/home-26bde07a5c226d7c447fabdda604bfc9.css?body=1" for 127.0.0.1 at 2015-03-28 00:03:37 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:03:37 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:03:37 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:03:37 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:03:37 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:04:31 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 96ms (Views: 94.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-bffe8153c38f3089bffcd2c15bdd541b.css?body=1" for 127.0.0.1 at 2015-03-28 00:04:31 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:04:31 +0700
+
+
+Started GET "/assets/application-11e9d6d743a5e05025a6f10d98d5cc2c.css?body=1" for 127.0.0.1 at 2015-03-28 00:04:31 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:04:31 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:04:31 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:04:31 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:04:31 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:05:07 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 70ms (Views: 69.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-bffe8153c38f3089bffcd2c15bdd541b.css?body=1" for 127.0.0.1 at 2015-03-28 00:05:07 +0700
+
+
+Started GET "/assets/application-11e9d6d743a5e05025a6f10d98d5cc2c.css?body=1" for 127.0.0.1 at 2015-03-28 00:05:07 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:05:07 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:05:07 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:05:07 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:05:07 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:05:07 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:05:58 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 103ms (Views: 101.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-b9a597cfa327192ec04b670fb114752d.css?body=1" for 127.0.0.1 at 2015-03-28 00:05:58 +0700
+
+
+Started GET "/assets/application-6136c0c887b4ed4344308f9d6d341425.css?body=1" for 127.0.0.1 at 2015-03-28 00:05:58 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:05:58 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:05:58 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:05:58 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:05:58 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:05:58 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:06:57 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 110ms (Views: 108.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-705b549771c23e8f5da726026ff895aa.css?body=1" for 127.0.0.1 at 2015-03-28 00:06:58 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:06:58 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:06:58 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:06:58 +0700
+
+
+Started GET "/assets/application-6b7d931aa2202cf494635280326d4dbc.css?body=1" for 127.0.0.1 at 2015-03-28 00:06:58 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:06:58 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:06:58 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:07:18 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 92ms (Views: 91.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-524b8eddec58ae6b713563d98657bae7.css?body=1" for 127.0.0.1 at 2015-03-28 00:07:18 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:07:18 +0700
+
+
+Started GET "/assets/application-9bb0cb01b3b40b6f4e8441a63f095fa6.css?body=1" for 127.0.0.1 at 2015-03-28 00:07:18 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:07:18 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:07:18 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:07:18 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:07:18 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:09:01 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.5ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 102ms (Views: 101.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-8bfd810016a4d6976a49bd078be5be80.css?body=1" for 127.0.0.1 at 2015-03-28 00:09:01 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:09:01 +0700
+
+
+Started GET "/assets/application-b1859761ea2c8ccdfb672f7a247088ba.css?body=1" for 127.0.0.1 at 2015-03-28 00:09:01 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:09:01 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:09:01 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:09:01 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:09:01 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:09:28 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 108ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-3775b861cee0466eca5573486254d29c.css?body=1" for 127.0.0.1 at 2015-03-28 00:09:28 +0700
+
+
+Started GET "/assets/application-ff9d652a1bf9e206a1501e5e85264dde.css?body=1" for 127.0.0.1 at 2015-03-28 00:09:28 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:09:28 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:09:28 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:09:28 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:09:28 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:09:28 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:10:03 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.5ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 51ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:10:03 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:10:03 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:10:03 +0700
+
+
+Started GET "/assets/home-3775b861cee0466eca5573486254d29c.css?body=1" for 127.0.0.1 at 2015-03-28 00:10:03 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:10:03 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:10:03 +0700
+
+
+Started GET "/assets/application-ff9d652a1bf9e206a1501e5e85264dde.css?body=1" for 127.0.0.1 at 2015-03-28 00:10:03 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:10:19 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 106ms (Views: 105.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-78afb04d64c31b138ab4d2ef06602f2f.css?body=1" for 127.0.0.1 at 2015-03-28 00:10:19 +0700
+
+
+Started GET "/assets/application-6b91978939058b4c8e29a694f70a921f.css?body=1" for 127.0.0.1 at 2015-03-28 00:10:19 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:10:19 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:10:19 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:10:19 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:10:19 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:10:19 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:11:00 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 99ms (Views: 98.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-eed10ad62f3e1e022cddbea7080e35dc.css?body=1" for 127.0.0.1 at 2015-03-28 00:11:00 +0700
+
+
+Started GET "/assets/application-1e1235f94ee4fb17ff6c4f87db37a744.css?body=1" for 127.0.0.1 at 2015-03-28 00:11:00 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:11:00 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:11:00 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:11:00 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:11:00 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:11:00 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:12:01 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 70ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-eed10ad62f3e1e022cddbea7080e35dc.css?body=1" for 127.0.0.1 at 2015-03-28 00:12:01 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:12:01 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:12:01 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:12:01 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:12:01 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:12:01 +0700
+
+
+Started GET "/assets/application-1e1235f94ee4fb17ff6c4f87db37a744.css?body=1" for 127.0.0.1 at 2015-03-28 00:12:02 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:12:10 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 89ms (Views: 87.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-c8e02b106a0ed9acbd611a5f4db4c0ab.css?body=1" for 127.0.0.1 at 2015-03-28 00:12:11 +0700
+
+
+Started GET "/assets/home-8cca5eae479781caa2e4146551e1dfcc.css?body=1" for 127.0.0.1 at 2015-03-28 00:12:11 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:12:11 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:12:11 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:12:11 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:12:11 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:12:11 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:13:24 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 102ms (Views: 101.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-6f53253fe0e754d4bdf1a637af12da76.css?body=1" for 127.0.0.1 at 2015-03-28 00:13:24 +0700
+
+
+Started GET "/assets/application-d3ffb0b36ea7440f6efc5d87903543e6.css?body=1" for 127.0.0.1 at 2015-03-28 00:13:24 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:24 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:24 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:24 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:24 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:24 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:13:31 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 127ms (Views: 126.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-1dc453a547c63a8105455a44a446dbab.css?body=1" for 127.0.0.1 at 2015-03-28 00:13:31 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:31 +0700
+
+
+Started GET "/assets/application-b88f0f5f1e0cab072fd57dbd777bd94b.css?body=1" for 127.0.0.1 at 2015-03-28 00:13:31 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:31 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:31 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:31 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:31 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:13:47 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 123ms (Views: 122.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:47 +0700
+
+
+Started GET "/assets/home-1dc453a547c63a8105455a44a446dbab.css?body=1" for 127.0.0.1 at 2015-03-28 00:13:47 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:47 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:47 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:47 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:47 +0700
+
+
+Started GET "/assets/application-b88f0f5f1e0cab072fd57dbd777bd94b.css?body=1" for 127.0.0.1 at 2015-03-28 00:13:47 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:13:53 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 80ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-1dc453a547c63a8105455a44a446dbab.css?body=1" for 127.0.0.1 at 2015-03-28 00:13:53 +0700
+
+
+Started GET "/assets/application-b88f0f5f1e0cab072fd57dbd777bd94b.css?body=1" for 127.0.0.1 at 2015-03-28 00:13:53 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:53 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:53 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:53 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:53 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:53 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:13:56 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 69ms (Views: 67.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-1dc453a547c63a8105455a44a446dbab.css?body=1" for 127.0.0.1 at 2015-03-28 00:13:56 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:56 +0700
+
+
+Started GET "/assets/application-b88f0f5f1e0cab072fd57dbd777bd94b.css?body=1" for 127.0.0.1 at 2015-03-28 00:13:56 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:56 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:56 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:56 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:13:56 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:14:34 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 92ms (Views: 91.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-5ca4daf96ed95f334e1c57aec239c834.css?body=1" for 127.0.0.1 at 2015-03-28 00:14:34 +0700
+
+
+Started GET "/assets/application-cccf4475e3958408f0774a125c58282f.css?body=1" for 127.0.0.1 at 2015-03-28 00:14:34 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:14:34 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:14:34 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:14:34 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:14:34 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:14:34 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:14:37 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 69ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:14:37 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:14:37 +0700
+
+
+Started GET "/assets/home-5ca4daf96ed95f334e1c57aec239c834.css?body=1" for 127.0.0.1 at 2015-03-28 00:14:37 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:14:37 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:14:37 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:14:37 +0700
+
+
+Started GET "/assets/application-cccf4475e3958408f0774a125c58282f.css?body=1" for 127.0.0.1 at 2015-03-28 00:14:37 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:14:53 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 105ms (Views: 103.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-1b61faa8d68decd72d139c15404272ec.css?body=1" for 127.0.0.1 at 2015-03-28 00:14:53 +0700
+
+
+Started GET "/assets/application-9a64b85b08b660d74337dff68021c0bf.css?body=1" for 127.0.0.1 at 2015-03-28 00:14:53 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:14:53 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:14:53 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:14:53 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:14:53 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:14:53 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:15:22 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 118ms (Views: 117.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-03a3087894b80fc9006ddb3beb7ffb9b.css?body=1" for 127.0.0.1 at 2015-03-28 00:15:23 +0700
+
+
+Started GET "/assets/home-5d021b0a4d9398fddf7755d022005c8f.css?body=1" for 127.0.0.1 at 2015-03-28 00:15:23 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:15:23 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:15:23 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:15:23 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:15:23 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:15:23 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 00:15:37 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 74ms (Views: 73.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-5d021b0a4d9398fddf7755d022005c8f.css?body=1" for 127.0.0.1 at 2015-03-28 00:15:38 +0700
+
+
+Started GET "/assets/application-03a3087894b80fc9006ddb3beb7ffb9b.css?body=1" for 127.0.0.1 at 2015-03-28 00:15:38 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 00:15:38 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 00:15:38 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 00:15:38 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 00:15:38 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 00:15:38 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-28 10:04:08 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/namct/.rvm/gems/ruby-2.1.5/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (10.0ms)
+Completed 200 OK in 179ms (Views: 158.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:04:20 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.5ms)
+  Rendered home/_content.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (155.8ms)
+Completed 200 OK in 867ms (Views: 866.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-5d021b0a4d9398fddf7755d022005c8f.css?body=1" for 127.0.0.1 at 2015-03-28 10:04:21 +0700
+
+
+Started GET "/assets/application-03a3087894b80fc9006ddb3beb7ffb9b.css?body=1" for 127.0.0.1 at 2015-03-28 10:04:21 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:04:21 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:04:21 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:04:21 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:04:21 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:04:21 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:07:08 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.9ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 109ms (Views: 107.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-5d021b0a4d9398fddf7755d022005c8f.css?body=1" for 127.0.0.1 at 2015-03-28 10:07:08 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:07:08 +0700
+
+
+Started GET "/assets/application-03a3087894b80fc9006ddb3beb7ffb9b.css?body=1" for 127.0.0.1 at 2015-03-28 10:07:08 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:07:08 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:07:08 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:07:08 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:07:08 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:12:19 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 134ms (Views: 132.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-8e79287751a3f78241ca1b481783d376.css?body=1" for 127.0.0.1 at 2015-03-28 10:12:19 +0700
+
+
+Started GET "/assets/application-c3faa5d8a70d81d3802abce26210f080.css?body=1" for 127.0.0.1 at 2015-03-28 10:12:19 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:12:19 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:12:19 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:12:19 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:12:19 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:12:19 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:14:19 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.5ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 111ms (Views: 109.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-63a3667f259751ed100edd2c1d7b1523.css?body=1" for 127.0.0.1 at 2015-03-28 10:14:19 +0700
+
+
+Started GET "/assets/application-4549ea5807b4a73d7b0b06089f8176dc.css?body=1" for 127.0.0.1 at 2015-03-28 10:14:19 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:14:19 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:14:19 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:14:19 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:14:19 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:14:19 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:14:21 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 56ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:14:21 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:14:21 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:14:21 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:14:21 +0700
+
+
+Started GET "/assets/home-63a3667f259751ed100edd2c1d7b1523.css?body=1" for 127.0.0.1 at 2015-03-28 10:14:21 +0700
+
+
+Started GET "/assets/application-4549ea5807b4a73d7b0b06089f8176dc.css?body=1" for 127.0.0.1 at 2015-03-28 10:14:21 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:14:21 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:14:22 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.3ms)
+  Rendered home/_content.html.erb (0.3ms)
+  Rendered home/_footer.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 71ms (Views: 70.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:14:23 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 54ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:14:24 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 68ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:14:24 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 53ms (Views: 51.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:14:25 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 55ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:14:29 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 66ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:14:40 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 96ms (Views: 95.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-a1833fa9b4cc08b84c4539ad0821e58e.css?body=1" for 127.0.0.1 at 2015-03-28 10:14:41 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:14:41 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:14:41 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:14:41 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:14:41 +0700
+
+
+Started GET "/assets/application-bdc0765814941207e1293736470e744d.css?body=1" for 127.0.0.1 at 2015-03-28 10:14:41 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:14:41 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:14:50 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 64ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:14:51 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 53ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:14:53 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 57ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:14:54 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 80ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:14:55 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 55ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:14:55 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 55ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:14:57 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:14:58 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 52ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:15:39 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 101ms (Views: 99.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-0e5f13e68f468a34aab76ae7813bedb5.css?body=1" for 127.0.0.1 at 2015-03-28 10:15:40 +0700
+
+
+Started GET "/assets/application-3d3af1859fa55a13498ccbc52505f05f.css?body=1" for 127.0.0.1 at 2015-03-28 10:15:40 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:15:40 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:15:40 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:15:40 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:15:40 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:15:40 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:15:42 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 59ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:15:43 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 77ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:15:46 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 96ms (Views: 95.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:15:47 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:15:47 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:15:47 +0700
+
+
+Started GET "/assets/home-a1833fa9b4cc08b84c4539ad0821e58e.css?body=1" for 127.0.0.1 at 2015-03-28 10:15:47 +0700
+
+
+Started GET "/assets/application-bdc0765814941207e1293736470e744d.css?body=1" for 127.0.0.1 at 2015-03-28 10:15:47 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:15:47 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:15:47 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:15:54 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 74ms (Views: 72.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:15:54 +0700
+
+
+Started GET "/assets/home-a1833fa9b4cc08b84c4539ad0821e58e.css?body=1" for 127.0.0.1 at 2015-03-28 10:15:54 +0700
+
+
+Started GET "/assets/application-bdc0765814941207e1293736470e744d.css?body=1" for 127.0.0.1 at 2015-03-28 10:15:54 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:15:54 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:15:54 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:15:54 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:15:54 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:15:55 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 64ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:15:56 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 54ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:15:57 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 63ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:16:01 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 61ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:18:12 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.7ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 102ms (Views: 100.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-57aa83c4752bfa0f25b08fb369abfcec.css?body=1" for 127.0.0.1 at 2015-03-28 10:18:12 +0700
+
+
+Started GET "/assets/application-03ddf20ae93bdbc0a71a169bbc1d397a.css?body=1" for 127.0.0.1 at 2015-03-28 10:18:12 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:12 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:12 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:12 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:12 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:12 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:18:14 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.5ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 58ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:18:14 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 68ms (Views: 67.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:18:15 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 55ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:18:16 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 63ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:17 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:17 +0700
+
+
+Started GET "/assets/home-57aa83c4752bfa0f25b08fb369abfcec.css?body=1" for 127.0.0.1 at 2015-03-28 10:18:17 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:17 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:17 +0700
+
+
+Started GET "/assets/application-03ddf20ae93bdbc0a71a169bbc1d397a.css?body=1" for 127.0.0.1 at 2015-03-28 10:18:17 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:17 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:18:18 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 51ms (Views: 49.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:18:19 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 64ms (Views: 63.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-57aa83c4752bfa0f25b08fb369abfcec.css?body=1" for 127.0.0.1 at 2015-03-28 10:18:20 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:20 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:20 +0700
+
+
+Started GET "/assets/application-03ddf20ae93bdbc0a71a169bbc1d397a.css?body=1" for 127.0.0.1 at 2015-03-28 10:18:20 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:20 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:20 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:20 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:18:21 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 58ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:18:22 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 51ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:18:23 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:18:23 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 67ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:18:37 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.8ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 107ms (Views: 106.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-2569107c683feb3e54949eae745e5571.css?body=1" for 127.0.0.1 at 2015-03-28 10:18:37 +0700
+
+
+Started GET "/assets/application-8559f86d0f919aff078d30e6392c81cf.css?body=1" for 127.0.0.1 at 2015-03-28 10:18:37 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:37 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:37 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:37 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:37 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:37 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:18:38 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.9ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 80ms (Views: 79.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:18:39 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 73ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:18:39 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 57ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:18:43 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 119ms (Views: 117.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:43 +0700
+
+
+Started GET "/assets/application-03ddf20ae93bdbc0a71a169bbc1d397a.css?body=1" for 127.0.0.1 at 2015-03-28 10:18:43 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:43 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:43 +0700
+
+
+Started GET "/assets/home-57aa83c4752bfa0f25b08fb369abfcec.css?body=1" for 127.0.0.1 at 2015-03-28 10:18:43 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:43 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:18:43 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:18:44 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 62ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:18:44 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 83ms (Views: 82.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:19:33 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 97ms (Views: 95.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-c20e459966252737aea369fddf1643d5.css?body=1" for 127.0.0.1 at 2015-03-28 10:19:33 +0700
+
+
+Started GET "/assets/application-b55f7be3c363e1b02370cce133dcbc5a.css?body=1" for 127.0.0.1 at 2015-03-28 10:19:33 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:19:33 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:19:33 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:19:33 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:19:33 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:19:33 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:19:35 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 61ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:19:36 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 52ms (Views: 51.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:19:37 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.2ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 62ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:19:54 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 51ms (Views: 50.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:19:55 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:19:57 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:20:05 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 104ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-3da6e097d3b2a49c4d80b86b3bfdba41.css?body=1" for 127.0.0.1 at 2015-03-28 10:20:05 +0700
+
+
+Started GET "/assets/application-0049b8102fc137678546ace51679dc5a.css?body=1" for 127.0.0.1 at 2015-03-28 10:20:05 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:20:06 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:20:06 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:20:06 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:20:06 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:20:06 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:20:07 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 60ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:20:08 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 53ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:20:09 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 54ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:20:10 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 79ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:20:11 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 56ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:20:11 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 65ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:20:12 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 54ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:21:15 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 107ms (Views: 105.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:21:15 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 59ms (Views: 57.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-374bf1cfac5246c3f68006df38617cdf.css?body=1" for 127.0.0.1 at 2015-03-28 10:21:15 +0700
+
+
+Started GET "/assets/application-38bf393af3862abe41b7c0be392c6d73.css?body=1" for 127.0.0.1 at 2015-03-28 10:21:15 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:21:15 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:21:16 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 76ms (Views: 75.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:21:16 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 60ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:21:17 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:21:17 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 60ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:21:18 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 125ms (Views: 124.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:21:19 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 63ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:21:23 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 235ms (Views: 234.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:21:24 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:21:24 +0700
+
+
+Started GET "/assets/application-b55f7be3c363e1b02370cce133dcbc5a.css?body=1" for 127.0.0.1 at 2015-03-28 10:21:24 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:21:24 +0700
+
+
+Started GET "/assets/home-c20e459966252737aea369fddf1643d5.css?body=1" for 127.0.0.1 at 2015-03-28 10:21:24 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:21:24 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:21:24 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:21:26 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 69ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:21:27 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 57ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:21:28 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:21:28 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 62ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:21:28 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 58ms (Views: 57.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:21:28 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 68ms (Views: 66.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:21:29 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 59ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-c20e459966252737aea369fddf1643d5.css?body=1" for 127.0.0.1 at 2015-03-28 10:21:32 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:22:05 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 109ms (Views: 107.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-966ef38261b63c439a6f82f1ac7fd0e8.css?body=1" for 127.0.0.1 at 2015-03-28 10:22:05 +0700
+
+
+Started GET "/assets/application-37101e140dde920f104341e6195e7696.css?body=1" for 127.0.0.1 at 2015-03-28 10:22:05 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:22:05 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:22:05 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:22:05 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:22:05 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:22:05 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:22:07 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 56ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:22:08 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 66ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:22:23 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 103ms (Views: 101.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-2c4b3fab1a46f6033bcad3bacb4111bf.css?body=1" for 127.0.0.1 at 2015-03-28 10:22:23 +0700
+
+
+Started GET "/assets/application-290884a2996cbc68bc4bcbe2822a18a4.css?body=1" for 127.0.0.1 at 2015-03-28 10:22:23 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:22:23 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:22:23 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:22:23 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:22:23 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:22:23 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:22:24 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 86ms (Views: 85.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:22:25 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 76ms (Views: 74.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:22:26 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 73ms (Views: 72.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:22:35 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 110ms (Views: 109.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-e19b894357998167c3430c78d1a45708.css?body=1" for 127.0.0.1 at 2015-03-28 10:22:35 +0700
+
+
+Started GET "/assets/application-c76dcb61a73c71e4dcf6b05b10aa2814.css?body=1" for 127.0.0.1 at 2015-03-28 10:22:35 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:22:35 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:22:35 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:22:35 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:22:35 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:22:35 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:22:37 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 60ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:22:38 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 69ms (Views: 68.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:22:40 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:22:41 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 85ms (Views: 83.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:22:42 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 57ms (Views: 56.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:22:46 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 94ms (Views: 93.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:22:46 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:22:46 +0700
+
+
+Started GET "/assets/home-c20e459966252737aea369fddf1643d5.css?body=1" for 127.0.0.1 at 2015-03-28 10:22:46 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:22:46 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:22:46 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:22:46 +0700
+
+
+Started GET "/assets/application-b55f7be3c363e1b02370cce133dcbc5a.css?body=1" for 127.0.0.1 at 2015-03-28 10:22:46 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:49:21 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.5ms)
+  Rendered home/_content.html.erb (0.4ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 95ms (Views: 93.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:49:21 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:49:21 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:49:21 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:49:21 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:49:21 +0700
+
+
+Started GET "/assets/home-c20e459966252737aea369fddf1643d5.css?body=1" for 127.0.0.1 at 2015-03-28 10:49:21 +0700
+
+
+Started GET "/assets/application-b55f7be3c363e1b02370cce133dcbc5a.css?body=1" for 127.0.0.1 at 2015-03-28 10:49:21 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:49:47 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.9ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 151ms (Views: 149.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-c20e459966252737aea369fddf1643d5.css?body=1" for 127.0.0.1 at 2015-03-28 10:49:48 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:49:48 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:49:48 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:49:48 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:49:48 +0700
+
+
+Started GET "/assets/application-b55f7be3c363e1b02370cce133dcbc5a.css?body=1" for 127.0.0.1 at 2015-03-28 10:49:48 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:49:48 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:50:51 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 130ms (Views: 128.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-74e11451f4e1022a004c06bde6fc8dcc.css?body=1" for 127.0.0.1 at 2015-03-28 10:50:52 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:50:52 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:50:52 +0700
+
+
+Started GET "/assets/application-a02b59655a30e6104fc1c697a91c494c.css?body=1" for 127.0.0.1 at 2015-03-28 10:50:52 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:50:52 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:50:52 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:50:52 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:51:09 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.8ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 233ms (Views: 231.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-beebef9980ff28e39ca2b524eb446074.css?body=1" for 127.0.0.1 at 2015-03-28 10:51:10 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:51:10 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:51:10 +0700
+
+
+Started GET "/assets/application-bd2aee559dd44afc0e94e077ef9ee99c.css?body=1" for 127.0.0.1 at 2015-03-28 10:51:10 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:51:10 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:51:10 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:51:10 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:51:21 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 331ms (Views: 329.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-a8caa72e7efb35b8a2ebac7a88caeb46.css?body=1" for 127.0.0.1 at 2015-03-28 10:51:22 +0700
+
+
+Started GET "/assets/application-094a2c985842c1b5304d2a69a2f39f6a.css?body=1" for 127.0.0.1 at 2015-03-28 10:51:22 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:51:22 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:51:22 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:51:22 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:51:22 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:51:22 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:53:07 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 146ms (Views: 145.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-c65e54aaded7f22804dd8b9ac37dfd55.css?body=1" for 127.0.0.1 at 2015-03-28 10:53:07 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:53:07 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:53:07 +0700
+
+
+Started GET "/assets/application-31502ec88dc5a3c00b8cc0f995c199fc.css?body=1" for 127.0.0.1 at 2015-03-28 10:53:07 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:53:07 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:53:07 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:53:07 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:54:13 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (1.0ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 126ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-c65e54aaded7f22804dd8b9ac37dfd55.css?body=1" for 127.0.0.1 at 2015-03-28 10:54:13 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:54:13 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:54:13 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:54:14 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:54:14 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:54:14 +0700
+
+
+Started GET "/assets/application-31502ec88dc5a3c00b8cc0f995c199fc.css?body=1" for 127.0.0.1 at 2015-03-28 10:54:14 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:54:43 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 143ms (Views: 141.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-09ad6d91428292ba228db8ca85516cd6.css?body=1" for 127.0.0.1 at 2015-03-28 10:54:43 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:54:43 +0700
+
+
+Started GET "/assets/home-eea8fb5d2e402efa7b53080449fa249b.css?body=1" for 127.0.0.1 at 2015-03-28 10:54:43 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:54:43 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:54:43 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:54:43 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:54:43 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:54:46 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 71ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-eea8fb5d2e402efa7b53080449fa249b.css?body=1" for 127.0.0.1 at 2015-03-28 10:54:46 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:54:46 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:54:46 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:54:46 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:54:46 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:54:46 +0700
+
+
+Started GET "/assets/application-09ad6d91428292ba228db8ca85516cd6.css?body=1" for 127.0.0.1 at 2015-03-28 10:54:46 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:54:50 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 80ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-09ad6d91428292ba228db8ca85516cd6.css?body=1" for 127.0.0.1 at 2015-03-28 10:54:50 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:54:50 +0700
+
+
+Started GET "/assets/home-eea8fb5d2e402efa7b53080449fa249b.css?body=1" for 127.0.0.1 at 2015-03-28 10:54:50 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:54:50 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:54:50 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:54:50 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:54:50 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:55:15 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 99ms (Views: 97.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-eea8fb5d2e402efa7b53080449fa249b.css?body=1" for 127.0.0.1 at 2015-03-28 10:55:15 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:55:15 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:55:15 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:55:15 +0700
+
+
+Started GET "/assets/application-09ad6d91428292ba228db8ca85516cd6.css?body=1" for 127.0.0.1 at 2015-03-28 10:55:15 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:55:15 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:55:15 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:56:10 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (1.7ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 92ms (Views: 91.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-eea8fb5d2e402efa7b53080449fa249b.css?body=1" for 127.0.0.1 at 2015-03-28 10:56:10 +0700
+
+
+Started GET "/assets/application-09ad6d91428292ba228db8ca85516cd6.css?body=1" for 127.0.0.1 at 2015-03-28 10:56:10 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:56:10 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:56:10 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:56:10 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:56:10 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:56:10 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:57:20 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 232ms (Views: 230.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-da1d41232ef7b81d3bb7e8a8ffbbdccc.css?body=1" for 127.0.0.1 at 2015-03-28 10:57:21 +0700
+
+
+Started GET "/assets/application-e705e95fb54210874ab35aa992f12193.css?body=1" for 127.0.0.1 at 2015-03-28 10:57:21 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:57:21 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:57:21 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:57:21 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:57:21 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:57:21 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:57:41 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 206ms (Views: 205.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-870d359768939c9a1bfcedda60c89c41.css?body=1" for 127.0.0.1 at 2015-03-28 10:57:41 +0700
+
+
+Started GET "/assets/home-ab3d4874ff50170b7de595edcbb2ebf3.css?body=1" for 127.0.0.1 at 2015-03-28 10:57:41 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:57:41 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:57:41 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:57:41 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:57:41 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:57:41 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:57:59 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 128ms (Views: 127.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-504a14e555bc7499d0a442d8532a3349.css?body=1" for 127.0.0.1 at 2015-03-28 10:57:59 +0700
+
+
+Started GET "/assets/application-525e53438311ed118484b334fb040cd9.css?body=1" for 127.0.0.1 at 2015-03-28 10:57:59 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:57:59 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:57:59 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:57:59 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:57:59 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:57:59 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:58:50 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.2ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 316ms (Views: 314.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-852d45047cfaea2eda58e1a504ce06ba.css?body=1" for 127.0.0.1 at 2015-03-28 10:58:50 +0700
+
+
+Started GET "/assets/application-7b2033ea4d139bf13f85f1bb38e8bab5.css?body=1" for 127.0.0.1 at 2015-03-28 10:58:50 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 10:58:50 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 10:58:50 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 10:58:50 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 10:58:50 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 10:58:51 +0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:58:55 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.7ms)
+  Rendered home/_content.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 152ms (Views: 150.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:58:56 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 123ms (Views: 122.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:58:56 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 140ms (Views: 139.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:58:57 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 125ms (Views: 123.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:59:11 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 86ms (Views: 85.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:59:11 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 76ms (Views: 75.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:59:12 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 73ms (Views: 72.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:59:13 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 72ms (Views: 71.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:59:14 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 76ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:59:24 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 81ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:59:25 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 87ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:59:26 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 89ms (Views: 87.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:59:26 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 109ms (Views: 108.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:59:27 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.0ms)
+  Rendered home/_content.html.erb (0.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 124ms (Views: 123.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:59:28 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 116ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:59:29 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 118ms (Views: 116.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 10:59:29 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.1ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 85ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2015-03-28 11:00:41 +0700
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (0.1ms)
+  Rendered home/_content.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 81ms (Views: 80.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-852d45047cfaea2eda58e1a504ce06ba.css?body=1" for 127.0.0.1 at 2015-03-28 11:00:41 +0700
+
+
+Started GET "/assets/application-7b2033ea4d139bf13f85f1bb38e8bab5.css?body=1" for 127.0.0.1 at 2015-03-28 11:00:41 +0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-03-28 11:00:41 +0700
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-03-28 11:00:41 +0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 127.0.0.1 at 2015-03-28 11:00:41 +0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-03-28 11:00:41 +0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-03-28 11:00:41 +0700
